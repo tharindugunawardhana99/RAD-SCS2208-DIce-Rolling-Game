@@ -1,0 +1,157 @@
+body {
+    text-align: center;   
+}
+
+label {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.area1 {
+    align-content: center;
+    align-self: center;
+    display: block;
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(15, 52, 99);
+    margin-left: 350px;
+    
+    opacity: 0.8;
+    color: white;
+   
+}
+
+
+.area2 {
+    align-content: center;
+    align-self: center;
+    display: block;
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(15, 52, 99);
+    margin-left: 350px;
+    margin-top: 20px;
+    opacity: 0.8;
+    color: white;
+   
+}
+
+.row {
+    display: flex;
+    column-gap: 20px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.img_dicer {
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    
+}
+
+.img_dicel {
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    
+}
+
+.img_dicel:hover {
+    transform:rotate(20deg);
+	transition: 1s transform;
+}
+
+.img_dicer:hover {
+    transform:rotate(-20deg);
+	transition: 1s transform;
+}
+
+.img_dice {
+    width: 250px;
+    height: 250px;
+    align-content: center;
+}
+
+.img_dice:hover {
+    transform: scale(1.2);
+}
+
+button {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 22px;
+    cursor: pointer;
+    color: rgb(234, 226, 226);
+    background-color: rgb(222, 194, 216);
+    background: transparent;
+}
+
+button:hover {
+    color: darkmagenta;
+    background-color: rgb(234, 161, 73);
+}
+
+.btn {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 22px;
+    cursor: pointer;
+    color: rgb(234, 226, 226);
+    background-color: rgb(222, 194, 216);
+    background: transparent;
+}
+
+.btn:hover {
+    color: darkmagenta;
+    background-color: rgb(234, 161, 73);
+}
+
+table {
+    align-content: center;
+    position: relative;
+    margin-left: 170px;
+}
+
+td {
+    padding: 15px;
+}
+
+.anim {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    animation: bubble 7s linear infinite;
+}
+
+@keyframes bubble {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(80vh);
+        opacity: 0;
+    }
+}
