@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roll Game</title>
+    <link rel="icon" href="Images/favicon-16x16.png">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body background="Images/pexels-photo-4638772.jpeg" onload="addPlayers()">
+
+    
+    <div class="area1">
+        <h1>Dice Rolling Game</h1>
+        <h2 id="count"></h2>
+        <div class="row">
+            <div class="col-6">
+                <h2 id="playerOne"></h2>
+                <img src="Images/dice_1.png" alt="dice" class="img_dicel">
+                <h2>Score</h2>
+                <h3 id="score1"></h3>
+            </div>
+            <div class="col-6">
+                <h2 id="playerTwo"></h2>
+                <img src="Images/dice_1.png" alt="dice" class="img_dicer">
+                <h2>Score</h2>
+                <h3 id="score2"></h3>
+            </div>
+        </div>
+        <h1 id="win"></h1>
+        <br>
+        <button id="dice_btn" onclick="diceGame()" >Roll the Dice</button>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
